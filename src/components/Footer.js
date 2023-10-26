@@ -27,89 +27,89 @@ function Footer() {
             </div>
           </div>
 
-          <div className="w-[880px] h-[218.77px] flex flex-row ">
-            <div className="w-[220px] h-[215.97px] px-2 py-2 ml-[220px] ">
+          <div className="w-[880px] h-[218.77px] flex flex-row mt-6">
+            <div className="w-[220px] h-[215.97px] px-2 py-2 ml-[220px]">
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Home
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   About
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Blog
-                </span>
+                </p>
               </div>
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Contact
-                </span>
+                </p>
               </div>
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Privacy Policy
-                </span>
+                </p>
               </div>
             </div>
 
             <div className="w-[220px] h-[215.97px] px-2 py-2 ">
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Facebook
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   LinkedIn
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Twitter
-                </span>
+                </p>
               </div>
               <div className="w-[196px] h-[38px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px]">
                   Instragram
-                </span>
+                </p>
               </div>
             </div>
 
             <div className="w-[220px] h-[215.97px] px-2 py-2  ">
               <div className="w-[89px] h-[22px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#131022] font-bold">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#131022] font-bold">
                   Contact Us
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[52px]">
-                <span className=" [Manrope] text-[16px] leading-[25px] text-[#585C7B] font-[400px]">
+                <p className=" [Manrope] text-[16px] leading-[25px] text-[#585C7B] font-[400px]">
                   50 Sullivan Street, Suite C, Warrenton VA, 20186
-                </span>
+                </p>
               </div>
 
               <div className="w-[196px] h-[26px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[400px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[400px]">
                   7038708770
-                </span>
+                </p>
               </div>
               <div className="w-[196px] h-[25px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] underline decoration-solid font-[600px]">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] underline decoration-solid font-[600px]">
                   info@emformance.com
-                </span>
+                </p>
               </div>
               <div className="w-[196px] h-[25px]">
-                <span className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px] underline decoration-solid ">
+                <p className=" [Manrope] text-[14px] leading-[25px] text-[#3E4265] font-[600px] underline decoration-solid ">
                   support@emformance.com
-                </span>
+                </p>
               </div>
             </div>
           </div>

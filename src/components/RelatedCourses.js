@@ -11,7 +11,7 @@ function CourseCard({ data: { title, description, image, author, time } }) {
             className="w-full h-full object-cover rounded-t-md"
           />
         </div>
-        <div className="p-4">
+        <div className="p-4 background bg-[#FFFFFF] ">
           <p className="text-base font-semibold line-clamp-2 h-12">{title}</p>
           <p className="text-slate-600 text-base font-normal line-clamp-2 mt-2">
             {description}
@@ -34,7 +34,7 @@ function RelatedCourses() {
       title: "PPC Advertising Mastery",
       description:
         "Create and manage high-performing pay-per-click ad campaigns.",
-      image: "/figmaImages/related_course_3.jpeg",
+      image: "/figmaImages/related_course_1.jpeg",
       author: "David Elson",
       time: "4h 54 min",
     },
@@ -42,7 +42,7 @@ function RelatedCourses() {
       title: "Marketing Analytics and Data Interpretation",
       description:
         "Dive into the world of marketing data and analytics. Learn how to collect, analyze, and interpret data.",
-      image: "/figmaImages/related_course_3.jpeg",
+      image: "/figmaImages/related_course_2.jpeg",
       author: "Dr. Jordan Martin",
       time: "8h 22 min",
     },
