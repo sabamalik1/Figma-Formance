@@ -1,14 +1,19 @@
 import React from "react";
 
-function CourseCard({ data: { title, description, image, author, time } }) {
+function CourseCard({ data: { title, description, image, heartImg, author, time } }) {
   return (
     <div className="flex justify-center w-full ">
       <div className="w-full max-w-sm">
-        <div className="w-full h-[200px] bg-gray-200 rounded-md">
+        <div className="w-full h-[200px] bg-gray-200 rounded-md relative ">
           <img
             src={image}
             alt=""
             className="w-full h-full object-cover rounded-t-md"
+          />
+           <img
+            src={heartImg}
+            alt=""
+            className="absolute top-0 right-0 w-[40px] h-[40px] mt-2 mr-2  "
           />
         </div>
         <div className="p-4 background bg-[#FFFFFF] ">
@@ -35,6 +40,7 @@ function RelatedCourses() {
       description:
         "Create and manage high-performing pay-per-click ad campaigns.",
       image: "/figmaImages/related_course_1.jpeg",
+      heartImg: "/figmaImages/Heart.png",
       author: "David Elson",
       time: "4h 54 min",
     },
@@ -43,6 +49,7 @@ function RelatedCourses() {
       description:
         "Dive into the world of marketing data and analytics. Learn how to collect, analyze, and interpret data.",
       image: "/figmaImages/related_course_2.jpeg",
+      heartImg: "/figmaImages/Heart.png",
       author: "Dr. Jordan Martin",
       time: "8h 22 min",
     },
@@ -51,6 +58,7 @@ function RelatedCourses() {
       description:
         "Explore strategies for marketing products and services online. Learn about e-commerce platforms and conversion optimization.",
       image: "/figmaImages/related_course_3.jpeg",
+      heartImg: "/figmaImages/Heart.png",
       author: "Dr. Jordan Martin",
       time: "8h 22 min",
     },
